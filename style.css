@@ -1,0 +1,176 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+}
+
+.container-nav {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+    .container-nav input {
+        margin-left: 35px;
+    }
+
+    .container-nav .new img {
+        float: left;
+    }
+
+    .container-nav .logo {
+        float: left;
+        padding: 15px 0;
+        padding-left: 100px;
+    }
+
+        .container-nav .logo span {
+            float: right;
+            margin-top: 5px;
+            margin-left: 50px;
+        }
+
+    .container-nav .new-list {
+        float: left;
+        padding-top: 15px;
+        padding-left: 100px;
+    }
+
+        .container-nav .new-list a {
+            padding: 5px 5px;
+            margin-left: 10px;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+            .container-nav .new-list a:hover {
+                color: orange;
+            }
+
+        .container-nav .new-list button {
+            font-size: 15px;
+            padding: 1px 3px;
+        }
+
+.clear {
+    clear: both;
+}
+
+
+.container-menu {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+    .container-menu .menu {
+        height: 40px;
+    }
+
+        .container-menu .menu ul {
+            list-style: none;
+        }
+
+            .container-menu .menu ul.root > li {
+                float: left;
+                list-style: none;
+                position: relative;
+            }
+
+            .container-menu .menu ul.root li > a {
+                text-decoration: none;
+                padding: 0px 15px;
+                line-height: 40px;
+                color: black;
+                display: block;
+            }
+
+    .container-menu ul.submenu {
+        width: 200px;
+        background-color: whitesmoke;
+        display: none;
+        position: absolute;
+    }
+
+        .container-menu ul.submenu li a {
+            border-bottom: 2px solid white;
+            text-indent: 10px;
+        }
+
+            .container-menu ul.submenu li a:hover {
+                text-decoration: underline;
+            }
+
+    .container-menu ul.root > li:hover ul.submenu {
+        display: block;
+    }
+
+
+.container-item {
+    width: 1180px;
+    margin: 0 auto;
+    height: 800px;
+}
+
+    .container-item .left {
+        padding-top: 20px;
+        float: left;
+    }
+
+        .container-item .left a img {
+            float: left;
+            margin-right: 15px;
+        }
+
+        .container-item .left .tem1 {
+            float: left;
+            width: 265px;
+            padding-top: 25px;
+            margin-right: 25px;
+            margin-bottom: 20px;
+        }
+
+            .container-item .left .tem1 h3 {
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+
+                .container-item .left .tem1 h3:hover {
+                    color: orange;
+                }
+
+            .container-item .left .tem1 a {
+                font-size: 15px;
+                text-decoration: none;
+                color: black;
+            }
+
+        .container-item .left .tem {
+            float: left;
+            width: 265px;
+            padding-top: 25px;
+            margin-right: 25px;
+            margin-bottom: 20px;
+        }
+
+            .container-item .left .tem h3 {
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+
+                .container-item .left .tem h3:hover {
+                    color: orange;
+                }
+
+            .container-item .left .tem a {
+                font-size: 15px;
+                text-decoration: none;
+                color: black;
+            }
+
+                .container-item .left .tem a #Binh {
+                    float: right;
+                }
+
+    .container-item .right {
+        float: right;
+        padding-top: 20px;
+    }
